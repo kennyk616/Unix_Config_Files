@@ -1,0 +1,13 @@
+[alias]
+	co = checkout
+	b = branch
+	l = log
+  st = status
+  amend = commit --amend
+  rb = rebase
+
+[branch "master"]
+  mergeoptions = --ff-only
+[user]
+	name = Ken Kao
+	email = kennyk616@gmail.com
